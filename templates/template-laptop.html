@@ -1,0 +1,39 @@
+<!-- 
+HERE WE LOAD THIS HTML FILE REPLACE ALL THIS TEXTHOLDERS WITH REAL TEXT AND THEN SEND THAT HTML TO BROWSER EACH TIME 
+WE REQUEST A CERTAIN LAPTOP 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">      
+        <h1>The Laptop Store!</h1>
+        <figure class="laptop">
+            <p class="laptop__price">${%PRICE%}</p>
+            <a href="./overview.html" class="laptop__back"><span class="emoji-left">👈</span>Back</a>
+            <div class="laptop__hero">
+                <img src="${%IMAGE%}" alt="" class="laptop__img">
+            </div>
+            <h2 class="laptop__name">${%PRODUCTNAME%}</h2>
+            <div class="laptop__details">${%SCREEN%}</p>
+                <p><span class="emoji-left">🧮</span> ${%CPU%}</p>
+                <p><span class="emoji-left">💾</span> ${%STORAGE%}</p>
+                <p><span class="emoji-left">📦</span>${%RAM%}</p>
+            </div>
+            <p class="laptop__description">
+                ${%DESCRIPTION%}
+            </p>
+            <p class="laptop__source">Source: <a href="https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361"
+                    target="_blank">https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361</a></p>
+            <a href="#" class="laptop__link">Buy now for ${%PRICE%} <span class="emoji-right">🥳 😍</span></a>
+        </figure>
+    </div>
+</body>
+</body>
+</html>
